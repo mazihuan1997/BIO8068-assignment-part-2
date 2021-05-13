@@ -39,7 +39,7 @@ for(folder in 1:output_n){
   dir.create(paste("test", spp_list[folder], sep="/"), recursive=TRUE)
 }
 
-# Now copy over spp_401.jpg to spp_500.jpg using two loops, deleting the photos
+# Now copy over spp_501.jpg to spp_600.jpg using two loops, deleting the photos
 # from the original images folder after the copy
 for(folder in 1:output_n){
   for(image in 501:600){
